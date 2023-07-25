@@ -1,0 +1,21 @@
+footer {
+    background-color: #131313;
+    padding: 1.5rem;
+    height: auto;
+}
+footer ul {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    list-style: none;
+
+}
+
+footer .nav-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+footer .nav-item a:hover {
+    color: #ffb320;
+}
