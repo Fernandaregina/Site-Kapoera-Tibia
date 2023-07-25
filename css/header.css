@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/*------------------
+  Header section
+---------------------*/
+
+.header-section {
+    background: #131313;
+	clear: both;
+	overflow: hidden;
+}
+.header-section-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    padding: 1.5rem 6rem;
+}
+.main-menu ul {
+    display: flex;
+    gap: 3rem;
+}
+.main-menu li {
+    list-style: none;
+}
+.main-menu a {
+    color: white;
+    text-decoration: none;
+}
+.main-menu a:hover {
+    color: #ffb320;
+    font-weight: bold;
+}
+
+.header-section-login a {
+    background-color: #ffb320 ;
+    padding: 8px 15px;
+    border-radius: 2rem;
+    color: #131313;
+    text-decoration: none;
+    display: flex;
+    flex: 1;
+    margin: 5px;
+}
+.header-section-login a:hover {
+    background-color: #131313;
+    color: #ffb320;
+    font-weight: bold;
+}
+.mobile-menu-icon {
+    display: none;
+}
+.mobile-menu {
+    display: none;
+}
+/*------------------
+  Header section responsive
+---------------------*/
+
+@media screen and (max-width:750px) {
+    .header-section-box {
+        padding: 1.5rem 4rem;
+        
+    }
+    .nav-item {
+        display: none;
+    }
+    .header-section-login {
+       display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu ul a {
+        color: white;
+        text-decoration: none;
+    }
+    .mobile-menu ul a:hover {
+        color: #ffb320;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .header-section-login {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .header-section-login a {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+
+}
+
+
+
