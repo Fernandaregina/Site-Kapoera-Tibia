@@ -24,44 +24,28 @@
     <header class="header-section">
         <div class="header-section-box">
             <!-- logo -->
-            <a class="site-logo" href="index.html">
-                <img src="img/logo.png" alt="">
-            </a>
+            <div class=header-section-logo>
+                <a class="site-logo" href="index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
             <!-- site menu -->
             <nav class="main-menu">
-                <ul>
+                <input type="checkbox" class="menu-btn" hidden id="menu-btn">
+                <label for="menu-btn" class="menu-icon">
+                    <span class="nav-icon"></span>
+                </label>
+                <ul class="header-menu">
                     <li class="nav-item"><a href="index.html">Inicio</a></li>
                     <li class="nav-item"><a href="about.html">Sobre Nós</a></li>
                     <li class="nav-item"><a href="servidor.html">Servidor</a></li>
                     <li class="nav-item"><a href="noticias.html">Notícias</a></li>
                     <li class="nav-item"><a href="mercado.html">Mercado</a></li>
                     <li class="nav-item"><a href="contact.html">Contato</a></li>
+                    <li class="nav-item btn"><a href="login.html">Login</a></li>
                 </ul>
             </nav>
-            <div class="header-section-login">
-                <a href="login.html">Login / Registrar</a> 
-            </div>
-
-            <!-- responsive -->
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img src="img/icons/menu-icon.svg" alt="icone menu mobile"></button>
-            </div>
-            <div class="mobile-menu">
-                <ul>
-                    <li class="nav-item"><a href="index.html">Inicio</a></li>
-                    <li class="nav-item"><a href="about.html">Sobre Nós</a></li>
-                    <li class="nav-item"><a href="servidor.html">Servidor</a></li>
-                    <li class="nav-item"><a href="noticias.html">Notícias</a></li>
-                    <li class="nav-item"><a href="mercado.html">Mercado</a></li>
-                    <li class="nav-item"><a href="contact.html">Contato</a></li>
-                </ul>
-                <div class="header-section-login">
-                    <a href="login.html">Login / Registrar</a> 
-                </div>
-            </div>
-
-            <!-- responsive -->
-
+                    
         </div>
     </header>
     <!-- Header section end--> 
@@ -78,7 +62,8 @@
   
 <!-- Latest news section end -->
     <main>
-      
+     
+    
         
     </main>
   <footer>
