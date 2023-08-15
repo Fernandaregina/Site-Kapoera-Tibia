@@ -1,0 +1,48 @@
+@font-face {
+    font-family: corleone;
+	src: url(../fonts/Corleone.TTF);
+}
+:root{
+    --color4: #041829;
+    
+}
+.about-page-title {
+   position: relative;
+}
+.about-page-title h2{
+    color: var(--color3);
+    letter-spacing: .1em;
+    font-size: 3em;
+    position: absolute;
+    left: 2.5em;  
+    top:5em;     
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.562) ;
+    font-weight: lighter;
+}
+.about-page {
+    height: 25em;
+    background: url(../img/page-top-bg/6.jpg) top no-repeat;
+    
+    background-color: var(--color4);
+}
+.about-main {
+    background: var(--color4);
+    color: var(--color3);
+}
+.about-main-content {
+    width: 80%;
+    margin: auto;
+}
+.about-main-content p {
+    padding: 1em 0;
+    line-height: 1.8em;
+    font-size: 1.1em;
+}
+.about-main-content span{
+    color: var(--color2);
+}
+.about-main-span {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
