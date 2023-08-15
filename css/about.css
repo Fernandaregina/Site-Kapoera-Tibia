@@ -1,11 +1,4 @@
-@font-face {
-    font-family: corleone;
-	src: url(../fonts/Corleone.TTF);
-}
-:root{
-    --color4: #041829;
-    
-}
+
 .about-page-title {
    position: relative;
 }

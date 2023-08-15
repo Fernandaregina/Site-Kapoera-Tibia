@@ -1,7 +1,4 @@
-@font-face {
-    font-family: corleone;
-	src: url(../fonts/Corleone.TTF);
-}
+
 /* <!-- Header section -->  */
 .home-page {
     background-image: url(../img/page-top-bg/home.jpg);
