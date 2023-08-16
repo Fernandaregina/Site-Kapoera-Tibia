@@ -1,5 +1,6 @@
 
 /* <!-- Header section -->  */
+
 .home-page {
     background-image: url(../img/page-top-bg/home.jpg);
 	background-color: #050F1E;
@@ -43,13 +44,17 @@
   Latest News section
 -----------------------*/
 .latest-news {
-	height: 80%;
 	
+	
+}
+.news-ticker {
+	overflow: hidden;
 }
 .latest-news-section {
 	display: flex;
 	background-color: var(--color1);
 	align-items: center;
+
 			
 }
 .ln-title {
@@ -64,6 +69,7 @@
 .news-ticker-contant {
 	display: flex;
 	gap: 2em;
+		
 }
 
 .nt-item {
@@ -89,6 +95,7 @@
 	color: var(--color3);
 	padding: .5em 0.9em;
 	margin-right: 1em;
+	
 }
 /* ANIMAÇÃO LATEST  */
 
@@ -97,7 +104,7 @@
 		transform: translateX(-100%);
 	}
 	to {
-		transform: translateX(auto);
+		transform: translateX(100&);
 	}
 }
 .news-ticker-contant {
@@ -142,7 +149,7 @@ Latest section responsive
 	
 }
 .main-rank {
-	width: 50%;
+	width: 80%;
 	margin: auto;
 	border: 1px solid;
 	margin-bottom: 1em;
