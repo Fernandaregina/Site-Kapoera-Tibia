@@ -1,0 +1,52 @@
+
+.servidorMain {
+	background: #1d2b3a;
+}
+.servidorMain h3 {
+	color: #ffb320;
+	text-align: center;
+	padding: 2rem;
+    font-size: 1.6em;
+}
+.servidorMain li {
+	color: #878787;
+}
+.huntedList {
+	width: 50%;
+	margin: auto;
+}
+.huntedList ul {
+	columns: 2;
+	text-align: center;
+}
+.huntedList li {
+	list-style: none;
+    font-size: 1.3em;
+}
+
+.huntClaimed {
+	width: 50%;
+	margin: auto;
+}
+.hintClaimed h3 {
+    font-size: 1.6em;
+}
+.huntClaimed span {
+	color: #fbb710;
+	text-transform: uppercase;
+	display: block;
+	padding-top: 1rem;
+}
+
+.huntClaimed ul {
+	columns: 2;
+	text-align: center;
+}
+.huntClaimed li {
+	list-style: none;
+	padding: 3px;
+    font-size: 1.3em;
+}
+.city {
+    font-size: 1.4em;
+}
