@@ -43,10 +43,7 @@
 /*---------------------
   Latest News section
 -----------------------*/
-.latest-news {
-	
-	
-}
+
 .news-ticker {
 	overflow: hidden;
 }
@@ -54,8 +51,6 @@
 	display: flex;
 	background-color: var(--color1);
 	align-items: center;
-
-			
 }
 .ln-title {
 	color: var(--color3);
