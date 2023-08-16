@@ -45,3 +45,19 @@
     justify-content: center;
     padding-bottom: 2em;
 }
+
+/* GUILD HOUSE SECTION  */
+.guild-house {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0;
+    align-items: center;
+}
+.guild-house-img img {
+    border-radius: 8px;
+}
+.guild-house-info span {
+    color: var(--color2);
+}
