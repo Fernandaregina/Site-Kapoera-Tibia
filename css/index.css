@@ -38,9 +38,81 @@
 }
 /* <!-- Header section end-->  */
 
-/* <!-- Latest news section --> */
+/*---------------------
+  Latest News section
+-----------------------*/
+.latest-news {
+	height: 80%;
+	
+}
+.latest-news-section {
+	display: flex;
+	background-color: var(--color1);
+	align-items: center;
+			
+}
+.ln-title {
+	color: var(--color3);
+	font-size: 2em;
+	padding: 1.5em;
+	z-index: 1;
+	background-color: var(--color2);
+}
+.news-ticker-contant {
+	display: flex;
+	gap: 1em;
+}
+.news-ticker {
+	
+}
+.nt-item {
+	color: var(--color3);
+	white-space: nowrap;
+	
+}
+.nt-item p {
+	margin-left: 25em;
+}
+.nt-item .new{
+	background-color: var(--color2);
+	color: var(--color3);
+	padding: .5em 0.9em;
+	margin-right: 1em;
+}
+.nt-item .attention {
+	background-color: var(--color2);
+	color: var(--color3);
+	padding: .5em 0.9em;
+	margin-right: 1em;
+}
+/* ANIMAÇÃO LATEST  */
 
-/* <!-- Latest news section end --> */
+@keyframes latest {
+	from {
+		transform: translateX(-100%);
+	}
+	to {
+		transform: translateX(100%);
+	}
+}
+.news-ticker-contant {
+	animation-name: latest;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+	animation-timing-function: linear;
+}
+/*------------------
+Latest section responsive
+---------------------*/
+@media screen and (max-width:51.87em){
+	.ln-title {
+		font-size: 1.2em;
+		transition: 1s;
+	}
+}
+
+/* ANIMAÇÃO LATEST end  */
 
 /* <!-- calendario section-->  */
 
