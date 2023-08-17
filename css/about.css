@@ -61,3 +61,18 @@
 .guild-house-info span {
     color: var(--color2);
 }
+
+/* GUILD SECTION RESPONSIVE */
+
+@media screen and (max-width:51.87em){
+    .guild-house {
+        display: block;
+        text-align: center;
+    }
+    .guild-house-info {
+        padding-bottom: 2em;
+    }
+    .guild-house-img img {
+        width: 70%;
+    }
+}

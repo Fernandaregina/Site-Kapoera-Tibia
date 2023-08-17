@@ -114,7 +114,7 @@
   Header section responsive
 ---------------------*/
 
-@media screen and (min-width:46.87em) {
+@media screen and (min-width:50em) {
   .header-section {
     position:sticky;
     top: 0;
