@@ -1,3 +1,7 @@
+main {
+    height: 100vh;
+        
+}
 .areaLogin {
     background-color: var(--color1);
     padding: 2em 0;
@@ -9,14 +13,13 @@
     margin: auto;
     justify-content: center;
     gap: 2em;
-    
 }
 .box {
     text-align: center;
 }
 .box h1 {
     color: var(--color2);
-    padding: 1em;
+    padding: 1em 0;
     text-transform: uppercase;
 }
 .box p {
@@ -31,8 +34,7 @@
     padding: 0.5em;
     margin-bottom: 1em;
     color: var(--color3);
-    width: 14em;
-    height: 1.2em;
+      
     
 }
 .inputBox input:hover {
@@ -102,10 +104,13 @@
 }
 
 @media screen and (max-width:51.87em) {
+    .areaLogin {
+        height: 100%;
+    }
     .login-container {
         display: block;
     }
-    .box2 .cadastro-area {
-        padding-bottom: 4em;
-    }
+   .cadastro-area {
+    padding-bottom: 2em;
+   }
 }
