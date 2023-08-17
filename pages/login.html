@@ -55,24 +55,28 @@
     <!-- Login section -->
 	
     <main class="areaLogin">
-		<div class="Login">
+		<div class="login-container">
 				<div class="box" >
 					<h1>Welcome !</h1>
 					<p>Sing in to your account</p>
-					<div class="inputBox">
-						<input type="email" name="email" id="email" required="required" autocomplete="on">
-						<span> E-mail</span>
-					</div>
-					<div class="inputBox">
-						<input type="password" name="senha" id="senha" required="required">
-						<span>Senha</span>
-					</div>
-					<button class="buttonLogin">Login</button>
-					<div><a href="#">Esqueci minha senha</a></div>
+					<div class="area-login-dados">
+                        <div class="inputBox">
+                            <input type="email" name="email" id="email" required="required" autocomplete="on" placeholder="E-mail">
+                        </div>
+                        <div class="inputBox">
+                            <input type="password" name="senha" id="senha" required="required" placeholder="Senha">
+                        </div>
+                    </div>
+					<div class="button-area">
+                        <button class="buttonLogin">Login</button>
+                    </div>
+					<div class="esqueci-area"><a href="#">Esqueci minha senha</a></div>
 				</div>
 				<div class="box2">
 					<h1>Join-us!</h1>
-					<div><a href="formulario.html">Cadastre-se</a></div>
+					<div class="cadastro-area">
+                        <a href="formulario.html">Cadastre-se</a>
+                    </div>
 				</div>
 		</div>
 	</main>
