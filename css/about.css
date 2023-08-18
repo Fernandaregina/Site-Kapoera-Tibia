@@ -21,8 +21,8 @@
 .about-page {
     height: 25em;
     background: url(../img/page-top-bg/6.jpg) top no-repeat;
-    
     background-color: var(--color4);
+    
 }
 .about-main {
     background: var(--color4);

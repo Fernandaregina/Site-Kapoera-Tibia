@@ -2,10 +2,9 @@
 /* <!-- Header section -->  */
 
 .home-page {
-    background-image: url(../img/page-top-bg/home.jpg);
+    background: url(../img/page-top-bg/home.jpg) no-repeat;
 	background-color: #050F1E;
-    background-position: center;
-    background-repeat: no-repeat;
+	background-size: cover;
 	width: 100%;
 	height: 450px;
 }
@@ -56,7 +55,7 @@
 	color: var(--color3);
 	font-size: 2em;
 	padding: 1.5em;
-	z-index: 1;
+	z-index: 0;
 	background-color: var(--color2);
 	white-space: nowrap;
 	
@@ -116,6 +115,9 @@
 Latest section responsive
 ---------------------*/
 @media screen and (max-width:51.87em){
+	.home-page {
+		background-position: center;
+	}
 	.ln-title {
 		font-size: 1.2em;
 		transition: 1s;
