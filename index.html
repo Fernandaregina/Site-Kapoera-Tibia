@@ -93,55 +93,51 @@
 <!-- Latest news section end -->
     <main>
         <div class="main-section-rank ">
-            <table class="rank-elements-lvl main-rank">
-                <tr class="rank-elements">
-                    <th>Nick</th>
-                    <th>Level</th>
-                    <th>Vocação</th>
-                </tr>
-            </table>
+            <h2 class="rank-title">Ranking</h2>
 
-            <table class="rank-elements-distance main-rank">
-                <tr class="rank-elements">
-                    <th>Nick</th>
-                    <th>Distance</th>
-                    <th>Vocação</th>
-                </tr>
+            <div class="section-input-rank">
+                <select id="selectRank" name="select" onchange="selectRankOptions()" class="input-rank">
+                    <option value="topLvlEk">Top Level EK</option>
+                    <option value="topLvlEd">Top Level ED</option>
+                    <option value="topLvlMs">Top Level MS</option>
+                    <option value="topLvlRp">Top Level RP</option>
+                    <option value="topMlMs">Top Magic Level MS</option>
+                    <option value="topMlEd">Top Magic Level ED</option>
+                    <option value="topMlRp">Top Magic Level RP</option>
+                    <option value="topDistRp">Top Distance RP</option>
+                    <option value="topShieldRp">Top Shielding RP</option>
+                    <option value="topAxe">Top Axe</option>
+                    <option value="topSword">Top Sword</option>
+                    <option value="topClub">Top Club</option>
+                    <option value="topBoss">Top Boss Points</option>
+                    <option value="topCharm">Top Charm Points</option>
+                    <option value="topAchiv">Top Achievements</option>
+                </select>
 
-            <table class="rank-elements-ml main-rank">
-                <tr class="rank-elements">
-                        <th>Nick</th>
-                        <th>Magic Level</th>
-                        <th>Vocação</th>
-                </tr>
-            </table>
-
-            <table class="rank-elements-axe main-rank">
-            
-                <tr class="rank-elements">
-                        <th>Nick</th>
-                        <th>Axe</th>
-                        <th>Vocação</th>
-                </tr>
-            </table>
-            
-            <table class="rank-elements-sword main-rank">
-            
-                <tr class="rank-elements">
-                        <th>Nick</th>
-                        <th>Sword</th>
-                        <th>Vocação</th>
-                </tr>
-            </table>
-
-            <table class="rank-elements-club main-rank">
-            
-                <tr class="rank-elements">
-                        <th>Nick</th>
-                        <th>Club</th>
-                        <th>Vocação</th>
-                </tr>
-            </table>
+                <div class="section-table-rank">
+                    <table id="table-rank" class="table-rank">
+                        <thead>
+                            <tr>
+                              <th id="table-rank-title">Top Level Ek</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>1° lugar</td>
+                              <td>***</td>
+                            </tr>
+                            <tr>
+                                <td>2° lugar</td>
+                                <td>***</td>
+                              </tr>
+                              <tr>
+                                <td>3° Lugar</td>
+                                <td>***</td>
+                              </tr>
+                          </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
         <!-- <div class="main-rank">
             <h3 class="main-rank-title">Rank</h3>
@@ -171,4 +167,5 @@
         </a>
     </div>
 </footer>
+<script src="./js/index.js"></script>
 </html>

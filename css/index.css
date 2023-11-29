@@ -139,18 +139,44 @@ Latest section responsive
 /* <!-- calendario section end-->  */
 
 /* <!-- rank section--> */
-.main-section-rank {
+main {
 	background-color: var(--color1);
-	padding: 2em;
-	color: var(--color3);
-	
 }
-.main-rank {
-	width: 80%;
+.main-section-rank {
+	width: 90%;
 	margin: auto;
-	border: 1px solid;
-	margin-bottom: 1em;
+	text-align: center;
+	padding-top: 5rem;
+}
+.rank-title {
+	color: var(--color2);
+}
+.section-input-rank {
+	padding: 2rem 0;
+}
+.input-rank{
+	background-color: var(--color1);
+	color: var(--color3);
+	padding: 0.5rem;
+	border-radius: 5px;
+}
+.section-table-rank {
+	color: var(--color3);
+	display: flex;
+	justify-content: center;
+	padding: 1.5rem 0;
+
+}
+.table-rank {
+	border: 1px solid var(--color2);
+	padding: 0.8rem;
+	text-align: left;
 }
 
+.table-rank th {
+	color: var(--color2);
+	padding-bottom: .8rem;
+	
+}
 /* <!-- rank section end--> */
 
